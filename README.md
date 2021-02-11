@@ -9,6 +9,6 @@
   </li>
 </ul>
 
-<img src="http://pitecan.com/tmp/nazo.gif" width=200>
+<img src="http://pitecan.com/tmp/nazo.gif" width=400>
 
 
