@@ -17,9 +17,8 @@ def make_rotated(image, degree)
   posx = (width - size) / 2
   posy = (height - size) / 2
   
-  posx = posy = 184 # うーん謎だ
+  posx = posy = 184 # うーん謎だ... 回転する前の画像での値を使うとよい感じ
   
-  # cmd = "convert rotated#{degree}.png -gravity NorthWest -crop #{size}x#{size}+#{posx}+#{posy} junk.png"
   cmd = "convert rotated.png -gravity NorthWest -crop #{size}x#{size}+#{posx}+#{posy} junk.png"
   puts cmd
   system cmd
